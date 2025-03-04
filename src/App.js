@@ -20,19 +20,18 @@ const App = () => {
           path="/main-site"
           element={
             <div className="container">
+              {/* Player do Spotify */}
               <iframe
-              className="music-player"
-              style={{ borderRadius: "12px" }}
-              src="https://open.spotify.com/embed/track/3iuC8v3WfFpMqQRg1NHDZM?utm_source=generator&theme=0"
-              width="300"
-              height="80"
-              frameBorder="0"
-              allowFullScreen
-              allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-              loading="lazy"
-              title="Spotify music player"  // Adicionei o título aqui
-            ></iframe>
-
+                className="music-player"
+                src="https://open.spotify.com/embed/track/3iuC8v3WfFpMqQRg1NHDZM?utm_source=generator&theme=0"
+                width="300"
+                height="80"
+                frameBorder="0"
+                allowFullScreen
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                loading="lazy"
+                title="Spotify music player"
+              ></iframe>
 
               <h1>Nosso Amor 💖</h1>
               <Timer startDate={startDate} />
@@ -41,7 +40,7 @@ const App = () => {
                 <Gallery />
               </div>
 
-              <h2 style={{ color: "#ff5e99" }}>Eu te amo há:</h2>
+              <h2>Eu te amo há:</h2>
 
               <p className="love-text">
                 A cada dia que passa, meu coração se enche mais de carinho e
