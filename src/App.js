@@ -30,7 +30,7 @@ const App = () => {
                 allowFullScreen
                 allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
                 loading="lazy"
-                title="Spotify music player"
+                title="Spotify Music Player"
               ></iframe>
 
               <h1>Nosso Amor 💖</h1>
@@ -40,15 +40,15 @@ const App = () => {
                 <Gallery />
               </div>
 
-              <h2>Eu te amo há:</h2>
+              <h2>Com Amor De Redzin...</h2>
 
               <p className="love-text">
-                A cada dia que passa, meu coração se enche mais de carinho e
-                admiração por você. Cada sorriso seu ilumina o meu mundo, e cada
-                abraço me faz sentir que estou exatamente onde deveria estar. Você
-                é a razão dos meus melhores pensamentos, e tudo ao seu lado se torna
-                mais bonito e significativo. <br />
-                Eu te amo para sempre ❤️
+                A Cada Dia Que Passa, Meu Coração Se Enche Mais De Carinho E
+                Admiração Por Você. Cada Sorriso Seu Ilumina O Meu Mundo, E Cada
+                Momento Com Você Me Faz Sentir Que Sou A Pessoa Mais Sortuda Deste Mundo Por Ter Você Comigo. Você
+                É A Razão Dos Meus Melhores Pensamentos, E Tudo Ao Seu Lado Se Torna
+                Mais Bonito E Significativo. <br />
+                Eu Te Amo Para Sempre ❤️
               </p>
             </div>
           }
