@@ -13,9 +13,9 @@ function Intro() {
     <div className="intro-container">
       <div className="intro-content">
         <h1>Surpresa Chegando...</h1>
-        <p>Em breve, você vai ver algo especial!</p>
+        <p>Uma Forma De Te Demonstrar Um Pouco Do Meu Amor...</p>
         <button className="intro-button" onClick={handleClick}>
-          Clique para ver mais
+          Clique Aqui
         </button>
       </div>
     </div>
